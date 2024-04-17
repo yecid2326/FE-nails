@@ -1,0 +1,64 @@
+footer {
+  background-color: #ffdede;
+  color: #0e0e0e;
+  padding: 15px 0;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: .3rem
+}
+.contacto {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contacto li{
+  list-style: none;
+  margin: .5rem;
+  font-size: .9rem;
+  font-weight: bold;
+
+}
+
+
+.redes-img{
+  margin: 0 .2rem;
+  height: 1.2rem;
+  width: 1.2rem;
+}
+hr {
+  margin: 0 5rem ;
+  text-align: center;
+  /* background-color: rgb(255, 0, 85); */
+}
+.text{
+  margin: .2rem;
+  text-align: center;
+  padding: 0;
+}
+p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.redes {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: .5rem;
+}
+@media screen and (max-width:768px){
+  .container{
+    text-align: center;
+    display: block;
+  }
+  .contacto {
+    display: block;
+  }
+  .redes {
+    margin: 0 auto;
+  }
+}

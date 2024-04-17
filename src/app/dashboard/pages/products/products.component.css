@@ -1,0 +1,78 @@
+
+table {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #bbbbbb ;
+  /* color: white; */
+}
+
+th {
+  background-color: #c81566 ;
+  padding: 8px 5px;
+  color: white;
+
+}
+
+/* Estilos para las imágenes */
+.product__image {
+  width: 100px;
+  height: auto;
+}
+
+/* Estilos para los botones */
+.btn {
+  padding: 5px 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn-update {
+  background-color: #4CAF50;
+  color: white;
+  margin-right: 3px;
+}
+
+.btn-delete {
+  background-color: #ca0d00;
+  color: white;
+}
+
+/* Estilos para el mensaje de no productos */
+h3 {
+  margin-top: 20px;
+  color: #c81566;
+  font-weight: bold;font-size: 1rem;
+}
+
+/* Estilos para el botón de retroceso */
+.card-buttons-p {
+  margin-top: 20px;
+  text-align: center;
+}
+tfoot tr td {
+  font-weight: bold;
+}
+
+.button {
+  background-color: #c81566;
+  color: white;
+  padding: 7px 16px;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 15px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  /* text-align: center; */
+}
+
+.button:hover {
+  background-color: #b10f58;
+}
