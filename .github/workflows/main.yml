@@ -38,4 +38,4 @@ jobs:
         run: aws s3 rm s3://andresyecid --recursive
 
       - name: Subir los archivos de dist para el bildeo que se sube en el bucket
-        run: aws s3 cp ./dist/nailsstudiofinalfrontend/browser s3://andresyecid --recursive
+        run: aws s3 cp ./dist/nailsstudiofinalfrontend s3://andresyecid --recursive
