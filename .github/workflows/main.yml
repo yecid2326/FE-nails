@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -36,7 +35,7 @@ jobs:
           echo "region = us-east-2" >> ~/.aws/config
 
       - name: Borrar lo que se encuentra en el bucket
-        run: aws s3 rm s3://andresyecid --recursive
+        run: aws s3 rm s3://pipeline-yecid --recursive
 
       - name: Subir los archivos de dist para el bildeo que se sube en el bucket
-        run: aws s3 cp ./dist/nailsstudiofinalfrontend s3://andresyecid --recursive
+        run: aws s3 cp ./dist/pipeline/browser s3://pipeline-yecid --recursive
